@@ -2,8 +2,8 @@ name: Upload Docker images
 
 on:
   push:
-    branches:
-      - 'master'
+    # branches:
+    #   - 'master'
 
 jobs:
   docker-push:
